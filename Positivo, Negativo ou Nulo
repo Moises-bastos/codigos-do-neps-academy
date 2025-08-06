@@ -1,0 +1,8 @@
+let n = X;
+if(n>0){
+    console.log("positivo");
+} if(n<0){
+    console.log("negativo");
+} if(n==0){
+    console.log("nulo");
+}
