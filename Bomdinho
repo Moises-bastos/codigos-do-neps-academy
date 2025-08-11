@@ -1,0 +1,5 @@
+if(A + M  <=50){
+    console.log("S")
+}else{
+    console.log("N")
+}
