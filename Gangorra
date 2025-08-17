@@ -1,0 +1,10 @@
+let momentoEsquerdo = P1 * C1;
+let momentoDireito = P2 * C2;
+
+if (momentoEsquerdo === momentoDireito) {
+    console.log(0);
+} else if (momentoEsquerdo > momentoDireito) {
+    console.log(-1);
+} else {
+    console.log(1);
+}
