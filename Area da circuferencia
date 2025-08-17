@@ -1,0 +1,9 @@
+const fs = require("fs");
+const input = fs.readFileSync(0, "utf8");
+
+let R = parseFloat(input.trim());
+const pi = 3.1416;
+
+let area = pi * R * R;
+
+console.log(area.toFixed(2));
