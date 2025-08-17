@@ -1,0 +1,17 @@
+// A variável input contém a entrada descrita no exercício
+const fs = require("fs");
+const input = fs.readFileSync(0, "utf8");
+
+let lines = input.trim().split("\n");
+
+let N = parseInt(lines[0]);
+let totalQuebrados = 0;
+
+for (let i = 1; i <= N; i++) {
+    let [L, C] = lines[i].split(" ").map(Number);
+    if (L > C) {
+        totalQuebrados += C;
+    }
+}
+
+console.log(totalQuebrados);
