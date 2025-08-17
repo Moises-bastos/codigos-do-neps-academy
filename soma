@@ -1,0 +1,3 @@
+let S = X + Y;
+
+console.log(S);
