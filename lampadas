@@ -1,0 +1,19 @@
+// A variável input contém a entrada descrita no exercício
+const fs = require("fs");
+const input = fs.readFileSync(0, "utf8");
+
+// Seu código vai aqui
+let A = 0;
+let B = 0;
+
+for (let i = 0; i < N; i++) {
+    if (apertos[i] === 1) {
+        A = 1 - A; 
+    } else if (apertos[i] === 2) {
+        A = 1 - A; 
+        B = 1 - B; 
+    }
+}
+
+console.log(A);
+console.log(B);
